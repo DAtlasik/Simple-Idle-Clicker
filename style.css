@@ -1,0 +1,51 @@
+html {
+    text-align:center;
+    background-image:url("https://static.pexels.com/photos/110322/pexels-photo-110322.jpeg");
+    background-size:100% 100%;
+}
+.lobster {
+    font-family:lobster,monospace;
+    font-size:30px;
+}
+#click {
+    width:80px;
+}
+.generator {
+    width:100px;
+}
+.footer {
+    font-size:12px;
+}
+.title {
+    text-align:center;
+    font-family:lobster,monospace;
+    font-size:40px;
+    color:red;
+}
+.smallGen {
+    width:15px;
+}
+.medGen {
+    width:20px;
+}
+.lrgGen {
+    width:25px;
+}
+.green-box {
+    background-color:green;
+    width:350px;
+    margin:auto;
+}
+.orange-box {
+    background-color:orange;
+    width:350px;
+    margin:auto;
+}
+.red-box {
+    background-color:red;
+    width:350px;
+    margin:auto;
+}
+.upgrade-button {
+    width:100px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <head>
+		<link rel="stylesheet" href="style.css">
+        <p class="title"><strong>My Simple Idle Game</strong></p>
+        <p class="lobster"><strong>Credits</strong></p>
+        <p><input id="creds" size="34" type="text" value="0" /></p>
+        <p><strong>Make Credits</strong></p>
+        <p><input id="click" type="button" value="+ 1 Credit" /></p>
+        <div class="green-box">
+            <p><img class="smallGen" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYhBttCEn8BUGJLcnglAGV8NyDr-dGppyON-wjePL4tLUch-kT">&nbsp;<strong>Small Generators</strong></p>
+                <p><input id="smallGeneratorAmount" size="2" type="text" value="0" />&nbsp;<input class="generator" id="smallGenerator" type="button" />&nbsp;&nbsp;Credits Per Second:&nbsp;<input id="smlGenCPSLabel" size="2" type="text" value="0" /></p>
+        </div>
+        <div class="orange-box">
+            <p><img class="medGen" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYhBttCEn8BUGJLcnglAGV8NyDr-dGppyON-wjePL4tLUch-kT">&nbsp;<strong>Medium Generators</strong></p>
+                <p><input id="medGeneratorAmount" size="2" type="text" value="0" />&nbsp;<input class="generator" id="medGenerator" type="button" />&nbsp;&nbsp;Credits per second:&nbsp;<input id="medGenCPSLabel" size="2" type="text" value="0" /></p>
+        </div>
+        <div class="red-box">
+            <p><img class="lrgGen" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYhBttCEn8BUGJLcnglAGV8NyDr-dGppyON-wjePL4tLUch-kT">&nbsp;<strong>Large Generators</strong></p>
+                <p><input id="lrgGeneratorAmount" size="2" type="text" value="0" />&nbsp;<input class="generator" id="lrgGenerator" type="button" />&nbsp;&nbsp;Credits per second:&nbsp;<input id="lrgGenCPSLabel" size="2" type="text" value="0" /></p>
+        </div>
+        <p><strong>Credits per second:</strong>&nbsp;&nbsp;<input id="creditPerSecond" size="28" type="text" value="0" /></p>
+        <p><strong>Total Credits Earned:</strong>&nbsp;&nbsp;<input id="totalCreditsEarned" size="28" type="text" value="0" /></p>
+        <p><strong>UPGRADES:</strong></p>
+            <p><strong>x10 Small Generator:</strong></p>
+                <p><input class="upgrade-button" id="smallGenMultiplier" type="button" />&nbsp;&nbsp;Upgrades Purchased:&nbsp;<input id="smlGenUpgrPurch" size="2" type="text" value="0" /></p>
+            <p><strong>x10 Medium Generator:</strong></p>
+                <p><input class="upgrade-button" id="medGenMultiplier" type="button" />&nbsp;&nbsp;Upgrades Purchased:&nbsp;<input id="medGenUpgrPurch" size="2" type="text" value="0" /></p>
+            <p><strong>x10 Large Generator:</strong></p>
+                <p><input class="upgrade-button" id="lrgGenMultiplier" type="button" />&nbsp;&nbsp;Upgrades Purchased:&nbsp;<input id="lrgGenUpgrPurch" size="2" type="text" value="0" /></p>
+
+				</head>
+    <body>	
+        <title>My Simple Idle Game</title>
+        <p class="footer">Please leave a Like if you have fun. The game is finished to keep it "Simple".</p>
+		<script src="script.js"></script>
+	</body> 
+</html>
